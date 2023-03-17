@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- links -->
+    <link rel="stylesheet" href="vendor/slick-master/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/OwlCarousel2-2.3.4/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/OwlCarousel2-2.3.4/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- main css file  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+
+    <!-- main css file  -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto menu">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Counter
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="animation.html">Animation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ripple.html">ripples </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Parallax
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="parallax.html"
+                        >parallax1</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="parallax2.html"
+                        >parallax2</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="parallax3.html"
+                        >parallax3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    gallery
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="lightbox.html">lightbox</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=" lightgallery.html"
+                        >lightGallery</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="slider.html">slider </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="curved.html">curved </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mixitup.html">mixit up </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Aos end  -->
+
+    <main>
+      <!-- slick slider start  -->
+      <section class="slick_slider py-5">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-12"><h1 class="title">slick slider</h1></div>
+          </div>
+
+          <div class="slick_slider_content">
+            <!-- slider 1  -->
+            <div class="slider-item">
+              <img src="images/slider1.jpg" alt="slider1" />
+            </div>
+            <div class="slider-item">
+              <img src="images/slider2.jpg" alt="slider2" />
+            </div>
+            <div class="slider-item">
+              <img src="images/slider3.jpg" alt="slider3" />
+            </div>
+            <div class="slider-item">
+              <img src="images/slider4.jpg" alt="slider4" />
+            </div>
+            <div class="slider-item">
+              <img src="images/slider5.jpg" alt="slider5" />
+            </div>
+            <div class="slider-item">
+              <img src="images/slider6.jpg" alt="slider6" />
+            </div>
+            <div class="slider-item">
+              <img src="images/slider7.jpg" alt="slider7" />
+            </div>
+            <div class="slider-item">
+              <img src="images/slider8.jpg" alt="slider8" />
+            </div>
+            <!-- slider 1  -->
+          </div>
+        </div>
+      </section>
+      <!-- slick slider end  -->
+      <!-- owl slider start  -->
+
+      <section class="owl_slider py-5">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-12"><h1 class="title">slick slider</h1></div>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <!-- slider 1  -->
+            <div class="slider-item item">
+              <img src="images/slider1.jpg" alt="slider1" />
+            </div>
+            <div class="slider-item item">
+              <img src="images/slider2.jpg" alt="slider2" />
+            </div>
+            <div class="slider-item item">
+              <img src="images/slider3.jpg" alt="slider3" />
+            </div>
+            <div class="slider-item item">
+              <img src="images/slider4.jpg" alt="slider4" />
+            </div>
+            <div class="slider-item item">
+              <img src="images/slider5.jpg" alt="slider5" />
+            </div>
+            <div class="slider-item item">
+              <img src="images/slider6.jpg" alt="slider6" />
+            </div>
+            <div class="slider-item item">
+              <img src="images/slider7.jpg" alt="slider7" />
+            </div>
+            <div class="slider-item item">
+              <img src="images/slider8.jpg" alt="slider8" />
+            </div>
+            <!-- slider 1  -->
+          </div>
+        </div>
+      </section>
+
+      <!-- owl slider start  -->
+    </main>
+
+    <!-- main js file  -->
+    <script src="vendor/jquery/jquery-3.6.4.min.js"></script>
+    <script src="vendor/slick-master/slick/jquery-migrate-1.2.1.min.js"></script>
+    <script src="vendor/slick-master/slick/slick.min.js"></script>
+    <script src="vendor/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- links -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css"
+    />
+    <link rel="stylesheet" href="vendor/minimal/dist/svgTimer.min.css" />
+    <!-- links -->
+
+    <!-- main css file  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- main css file  -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto menu">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Counter
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="animation.html">Animation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ripple.html">ripples </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Parallax
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="parallax.html"
+                        >parallax1</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="parallax2.html"
+                        >parallax2</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="parallax3.html"
+                        >parallax3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    gallery
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="lightbox.html">lightbox</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=" lightgallery.html"
+                        >lightGallery</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="slider.html">slider </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="curved.html">curved </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mixitup.html">mixit up </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- counter.js  -->
+
+    <main>
+      <section class="counter py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <!-- single counter  -->
+            <div class="col-7 mb-3">
+              <div class="single-counter">
+                <div class="countUp">
+                  <span class="counter1">12345</span>
+                </div>
+                <h2 class="title">counter One</h2>
+              </div>
+            </div>
+            <!-- single counter  -->
+            <!-- single counter  -->
+            <div class="col-7 mb-3">
+              <div class="single-counter">
+                <div class="countUp">
+                  <div>
+                    <ul class="counter2">
+                      <li class="scroll-number-0"></li>
+                      <li class="scroll-number-1"></li>
+                    </ul>
+                  </div>
+                </div>
+                <h2 class="title">counter Two</h2>
+              </div>
+            </div>
+            <!-- single counter  -->
+            <!-- single counter  -->
+            <div class="col-7 mb-3">
+              <div class="single-counter">
+                <div class="countUp">
+                  <div id="odometer" class="odometer">123</div>
+                </div>
+                <h2 class="title">counter Three</h2>
+              </div>
+            </div>
+            <!-- single counter  -->
+            <!-- single counter  -->
+            <div class="col-7 mb-3">
+              <div class="single-counter">
+                <div class="countUp">
+                  <div class="svg-test"></div>
+                </div>
+                <h2 class="title">counter Four</h2>
+              </div>
+            </div>
+            <!-- single counter  -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- counter.js  -->
+
+    <!-- script  -->
+    <script src="vendor/jquery/jquery-3.6.4.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="vendor/minimal/dist/svgTimer.min.js"></script>
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="vendor/gScrollNumber/gScrollNumber.js"></script>
+    <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="vendor/counterup/jquery.counterup.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- script  -->
+
+    <!-- main js file  -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

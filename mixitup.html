@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- links -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- main css file  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mixitup.css" />
+    <!-- main css file  -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto menu">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Counter
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="animation.html">Animation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ripple.html">ripples </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Parallax
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="parallax.html"
+                        >parallax1</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="parallax2.html"
+                        >parallax2</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="parallax3.html"
+                        >parallax3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    gallery
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="lightbox.html">lightbox</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=" lightgallery.html"
+                        >lightGallery</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="slider.html">slider </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="curved.html">curved </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="mixitup.html">mixit up </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Aos end  -->
+
+    <main>
+      <section class="mixitup py-5">
+        <div class="container">
+          <div class="row justify-content-center mb-5">
+            <div class="col-md-6">
+              <button
+                class="btn filter-btn btn1"
+                type="button"
+                data-filter="all"
+              >
+                All
+              </button>
+              <button
+                class="btn filter-btn btn2"
+                type="button"
+                data-filter=".cat1"
+              >
+                Category A
+              </button>
+              <button
+                class="btn filter-btn btn3"
+                type="button"
+                data-filter=".cat2"
+              >
+                Category B
+              </button>
+              <button
+                class="btn filter-btn btn4"
+                type="button"
+                data-filter=".cat3"
+              >
+                Category C
+              </button>
+            </div>
+          </div>
+          <div class="row contents">
+            <div class="col-md-3 item1 mix cat1" data-order="1"></div>
+            <div class="col-md-3 item2 mix cat2" data-order="2"></div>
+            <div class="col-md-3 item3 mix cat3" data-order="3"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- main js file  -->
+    <script src="vendor/mixitup-v3/mixitup.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/mixitup.js"></script>
+  </body>
+</html>

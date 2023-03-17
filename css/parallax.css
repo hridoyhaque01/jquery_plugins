@@ -1,0 +1,8 @@
+.parallax-window {
+  min-height: 600px;
+  background: transparent;
+}
+
+.parallax img {
+  width: 100%;
+}

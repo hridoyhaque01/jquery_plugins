@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- links -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery-bundle.min.css"
+      integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- main css file  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <!-- main css file  -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto menu">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Counter
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="animation.html">Animation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ripple.html">ripples </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Parallax
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="parallax.html"
+                        >parallax1</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="parallax2.html"
+                        >parallax2</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="parallax3.html"
+                        >parallax3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle active"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    gallery
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="lightbox.html"
+                        >parallax1</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=" lightgallery.html"
+                        >lightGallery</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="slider.html">slider </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="curved.html">curved </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mixitup.html">mixit up </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Aos end  -->
+
+    <main>
+      <section class="lightbox-images py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-5">
+              <div id="lightgallery">
+                <div class="mb-4">
+                  <a
+                    href="./images/image1.jpg"
+                    data-src="./images/image1.jpg"
+                    data-lg-size="1600-2400"
+                  >
+                    <img alt="image1" src="./images/image1.jpg" />
+                  </a>
+                </div>
+                <div class="mb-4">
+                  <a
+                    href="img/image2.jpg"
+                    data-src="./images/image2.jpg"
+                    data-lg-size="1600-2400"
+                  >
+                    <img alt="image2" src="./images/image2.jpg" />
+                  </a>
+                </div>
+                <div class="mb-4">
+                  <a
+                    href="./images/image3.jpg"
+                    data-src="./images/image3.jpg"
+                    data-lg-size="1600-2400"
+                  >
+                    <img alt="image3" src="./images/image3.jpg" />
+                  </a>
+                </div>
+                <div class="mb-4">
+                  <a
+                    href="./images/image4.jpg"
+                    data-src="./images/image4.jpg"
+                    data-lg-size="1600-2400"
+                  >
+                    <img alt="image4" src="./images/image4.jpg" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- main js file  -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"
+      integrity="sha512-dSI4QnNeaXiNEjX2N8bkb16B7aMu/8SI5/rE6NIa3Hr/HnWUO+EAZpizN2JQJrXuvU7z0HTgpBVk/sfGd0oW+w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/thumbnail/lg-thumbnail.umd.min.js"
+      integrity="sha512-hdzLQVAURjMzysJVkWaKWA2nD+V6CcBx6wH0aWytFnlmgIdTx/n5rDWoruSvK6ghnPaeIgwKuUESlpUhat2X+Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/zoom/lg-zoom.umd.min.js"
+      integrity="sha512-XXCpe8fRNmJzU9JVpJbjXIg4SpUeWcsLjeIFEnjQeD+2Y4Einh1spMPeN/1XcnfjYE+ebBY1f/U/Up7vx8+PEA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/lightbox.js"></script>
+  </body>
+</html>
