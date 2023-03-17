@@ -88,3 +88,179 @@ header {
   background-color: #222;
   border-radius: 3px;
 }
+
+/* animation start  */
+
+.single-content {
+  background-color: #8880ff;
+  height: 240px;
+  padding: 20px;
+  color: #fff;
+  font-size: 24px;
+  text-transform: capitalize;
+  border-radius: 6px;
+}
+
+/* animation end  */
+
+/* curved text start  */
+#text1 {
+  margin: 3em 0em;
+  overflow: hidden;
+  font: normal normal normal 2em/1.5 "Open Sans Light", sans-serif;
+  color: #ffffff;
+  background-color: #3fafee;
+}
+
+/* curved text end  */
+
+/* lightbox  start  */
+
+.lightbox-images img {
+  width: 400px;
+}
+
+/* lightbox  end  */
+
+/* mixitup start  */
+
+.item1,
+.item2,
+.item3,
+.item4 {
+  height: 220px;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+  box-shadow: none !important;
+  margin: 0 10px;
+}
+
+.btn1 {
+  background-color: rgb(107 255 225);
+}
+
+.btn2,
+.item1 {
+  background-color: rgb(179 199 255);
+}
+
+.btn3,
+.item2 {
+  background-color: rgb(180 255 217);
+}
+
+.btn4,
+.item3 {
+  background-color: rgb(186, 255, 255);
+}
+
+.mixitup-control-active {
+  border: 3px solid #7475ff;
+}
+
+/* mixitup end  */
+
+/* parallax start  */
+.intro p {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+.section {
+  text-align: center;
+}
+#menu li {
+  display: inline-block;
+  margin: 10px;
+  color: #000;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#menu li.active {
+  background: #666;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+#menu li a {
+  text-decoration: none;
+  color: #000;
+}
+#menu li.active a:hover {
+  color: #000;
+}
+#menu li:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+#menu li a,
+#menu li.active a {
+  padding: 9px 18px;
+  display: block;
+}
+#menu li.active a {
+  color: #fff;
+}
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Sections backgrounds
+* --------------------------------------- */
+#section0 {
+  background-image: linear-gradient(128deg, #40afff, #3f61ff);
+}
+
+#section1 {
+  background-image: linear-gradient(128deg, #ff9a3f, #ff4b40);
+}
+
+#section2 {
+  background-image: linear-gradient(128deg, #fc40ff, #543fff);
+}
+
+#section3 {
+  background-image: linear-gradient(128deg, #40fff2, #3fbcff);
+}
+
+.parallax-window {
+  min-height: 600px;
+  background: transparent;
+}
+
+.parallax img {
+  width: 100%;
+}
+
+/* parallax end  */
+
+/* ripple start  */
+.ripple-container {
+  height: 340px;
+  background-color: #6c757d;
+  border-radius: 6px;
+}
+
+/* ripple end  */
+
+/* slider start  */
+.slider-item img {
+  width: 100%;
+}
+
+.slick-slide {
+  margin: 0 10px;
+}
+
+/* slider end  */

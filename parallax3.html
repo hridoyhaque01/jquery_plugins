@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>bootstrap template</title>
+    <title>parallax</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,166 +12,55 @@
       rel="stylesheet"
     />
     <!-- links -->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendor/fullpage-parallax/fullpage.min.css" />
+
     <!-- main css file  -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/parallax.css" />
     <!-- main css file  -->
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid p-0">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto menu">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="index.html"
-                    >Counter
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="animation.html">Animation</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="ripple.html">ripples </a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle active"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Parallax
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="parallax.html"
-                        >parallax1</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="parallax2.html"
-                        >parallax2</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="parallax3.html"
-                        >parallax3</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    gallery
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="lightbox.html">lightbox</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href=" lightgallery.html"
-                        >lightGallery</a
-                      >
-                    </li>
-                  </ul>
-                </li>
+    <ul id="menu">
+      <li>
+        <a href="index.html">Go to Home Page</a>
+      </li>
+      <li data-menuanchor="firstPage" class="active">
+        <a href="#firstPage">First slide</a>
+      </li>
+      <li data-menuanchor="secondPage">
+        <a href="#secondPage">Second slide</a>
+      </li>
+      <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+    </ul>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="slider.html">slider </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="curved.html">curved </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="mixitup.html">mixit up </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+    <div id="fullpage">
+      <div class="section" id="section0">
+        <h1>Section 1</h1>
       </div>
-    </header>
-
-    <!-- Aos end  -->
-
-    <main>
-      <section class="parallax py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 mb-5">
-              <div
-                class="parallax__layer parallax__layer--back"
-                data-stellar-background-ratio="0.5"
-              >
-                <img src="./images/image2.jpg" alt="Background Image" />
-              </div>
-              <div
-                class="parallax__layer parallax__layer--front"
-                data-stellar-ratio="0.5"
-              >
-                <div class="parallax__content">
-                  <h1>Parallax Example</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="section active" id="section1">
+        <h1>section2</h1>
+      </div>
+      <div class="section" id="section2">
+        <div class="intro">
+          <h1>Section 3</h1>
         </div>
-      </section>
-      <section class="parallax">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div
-                class="parallax__layer parallax__layer--back"
-                data-stellar-background-ratio="0.5"
-              >
-                <img src="./images/image2.jpg" alt="Background Image" />
-              </div>
-              <div
-                class="parallax__layer parallax__layer--front"
-                data-stellar-ratio="0.5"
-              >
-                <div class="parallax__content">
-                  <h1>Parallax Example</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+      </div>
+    </div>
 
-    <!-- main js file  -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="vendor/fullpage-parallax/fullpage.min.js"
+    ></script>
+
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      var myFullpage = new fullpage("#fullpage", {
+        anchors: ["firstPage", "secondPage", "3rdPage", "4thpage", "lastPage"],
+        menu: "#menu",
+        slidesNavigation: true,
+        lazyLoad: true,
+        credits: { enabled: false },
+      });
+    </script>
 
     <script src="js/parallax.js"></script>
   </body>
